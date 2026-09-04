@@ -36,6 +36,7 @@ Ponto pto_atribui_x (Ponto p, float x){
 */
 Ponto pto_atribui_y (Ponto p, float y){
     p.y = y;
+    return p;
 }
 
 /* Funcao distancia
