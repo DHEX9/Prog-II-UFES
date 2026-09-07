@@ -1,0 +1,4 @@
+matrix_utils.c: In function ‘matrix_read’:
+matrix_utils.c:11:9: warning: unused variable ‘num’ [-Wunused-variable]
+   11 |     int num;
+      |         ^~~
