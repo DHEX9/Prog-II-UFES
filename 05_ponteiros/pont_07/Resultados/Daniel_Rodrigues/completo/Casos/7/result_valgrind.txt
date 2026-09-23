@@ -1,0 +1,14 @@
+==7005== Memcheck, a memory error detector
+==7005== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==7005== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==7005== Command: Resultados/Daniel_Rodrigues/completo/prog Resultados/Daniel_Rodrigues/completo/Casos/7
+==7005== Parent PID: 7004
+==7005== 
+==7005== Conditional jump or move depends on uninitialised value(s)
+==7005==    at 0x40013D5: trocarDataEvento (in /mnt/e/Prog-II-UFES/05_ponteiros/pont_07/Resultados/Daniel_Rodrigues/completo/prog)
+==7005==    by 0x400177A: main (in /mnt/e/Prog-II-UFES/05_ponteiros/pont_07/Resultados/Daniel_Rodrigues/completo/prog)
+==7005== 
+==7005== Conditional jump or move depends on uninitialised value(s)
+==7005==    at 0x40013E2: trocarDataEvento (in /mnt/e/Prog-II-UFES/05_ponteiros/pont_07/Resultados/Daniel_Rodrigues/completo/prog)
+==7005==    by 0x400177A: main (in /mnt/e/Prog-II-UFES/05_ponteiros/pont_07/Resultados/Daniel_Rodrigues/completo/prog)
+==7005== 

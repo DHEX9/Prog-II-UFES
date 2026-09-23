@@ -1,0 +1,6 @@
+==7609== Memcheck, a memory error detector
+==7609== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==7609== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==7609== Command: Resultados/Daniel_Rodrigues/evento/prog Resultados/Daniel_Rodrigues/evento/Casos/6
+==7609== Parent PID: 7608
+==7609== 
