@@ -1,0 +1,6 @@
+==1050== Memcheck, a memory error detector
+==1050== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==1050== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==1050== Command: Resultados/Daniel_Rodrigues/completo/prog Resultados/Daniel_Rodrigues/completo/Casos/2
+==1050== Parent PID: 1049
+==1050== 

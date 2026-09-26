@@ -1,5 +1,5 @@
 
-Departamento: Informatica
+ Departamento: Informatica
 	Diretor: Patricia
 	1o curso: CC
 	Media do 1o curso: 9

@@ -1,0 +1,6 @@
+==1331== Memcheck, a memory error detector
+==1331== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==1331== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==1331== Command: Resultados/Daniel_Rodrigues/tDepartamento/prog Resultados/Daniel_Rodrigues/tDepartamento/Casos/3
+==1331== Parent PID: 1330
+==1331== 

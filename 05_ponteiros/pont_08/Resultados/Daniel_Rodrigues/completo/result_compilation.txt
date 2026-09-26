@@ -1,0 +1,40 @@
+main.c: In function ‘main’:
+main.c:21:22: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   21 |         scanf(" %49[^\n]", &nome);
+      |                 ~~~~~^~    ~~~~~
+      |                      |     |
+      |                      |     char (*)[50]
+      |                      char *
+main.c:24:22: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   24 |         scanf(" %49[^\n]", &diretor);
+      |                 ~~~~~^~    ~~~~~~~~
+      |                      |     |
+      |                      |     char (*)[50]
+      |                      char *
+main.c:25:22: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   25 |         scanf(" %49[^\n] %49[^\n] %49[^\n]", &curso1, &curso2, &curso3);
+      |                 ~~~~~^~                      ~~~~~~~
+      |                      |                       |
+      |                      char *                  char (*)[50]
+main.c:25:31: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[50]’ [-Wformat=]
+   25 |         scanf(" %49[^\n] %49[^\n] %49[^\n]", &curso1, &curso2, &curso3);
+      |                          ~~~~~^~                      ~~~~~~~
+      |                               |                       |
+      |                               char *                  char (*)[50]
+main.c:25:40: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[50]’ [-Wformat=]
+   25 |         scanf(" %49[^\n] %49[^\n] %49[^\n]", &curso1, &curso2, &curso3);
+      |                                   ~~~~~^~                      ~~~~~~~
+      |                                        |                       |
+      |                                        char *                  char (*)[50]
+tDepartamento.c: In function ‘OrdenaDepartamentosPorMedia’:
+tDepartamento.c:77:15: warning: ‘m2’ may be used uninitialized [-Wmaybe-uninitialized]
+   77 |             if(m1 < m2){
+      |               ^
+tDepartamento.c:68:15: note: ‘m2’ was declared here
+   68 |     float m1, m2;
+      |               ^~

@@ -1,0 +1,7 @@
+tDepartamento.c: In function ‘OrdenaDepartamentosPorMedia’:
+tDepartamento.c:77:15: warning: ‘m2’ may be used uninitialized [-Wmaybe-uninitialized]
+   77 |             if(m1 < m2){
+      |               ^
+tDepartamento.c:68:15: note: ‘m2’ was declared here
+   68 |     float m1, m2;
+      |               ^~
